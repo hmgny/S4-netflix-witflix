@@ -110,18 +110,51 @@ p {
 }
 
 /*-- buton --*/
+h6 {
+  color:var(--typo-darkgray)
 
+}
+
+.buttons {
+  background-color: var(--back-black0);
+  
+  padding:1.6rem
+
+}
+
+button {
+  font-size: 1.2rem;
+  display: flex;
+  padding: 1.2rem;
+  gap: 1.5rem;
+  margin: 1.8rem;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: var(--primary-red);
+  color:var(--typo-white)
+}
 
 .primary-button {
-  font-size: 1.2rem;
   line-height: auto;
   letter-spacing: 0.1%;
+  background-color: var(--typo-white);
 }
 
 .seconder-button {
-  font-size: 1rem;
   line-height: auto;
   letter-spacing: 0%;
+  background-color: var(--typo-darkgray);
+  color:var(--typo-white)
+}
+
+.third-button{
+  line-height: auto;
+  letter-spacing: 0%;
+  background-color: var(--back-black0);
+  color:var(--typo-darkgray);
+  border-radius: 0;
 }
 
 
