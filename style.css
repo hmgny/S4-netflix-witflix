@@ -157,12 +157,48 @@ button:hover {
   border-radius: 0;
 }
 
+.main-entry {
+  background-color:black ;
+  border:1px solid #FFFFFF;
+  padding: 20rem;
+  
+}
 
+.main-entry h1{
+  text-align: center;
+  color:#FFFFFF
+}
 
+.entry{
+  display: flex;
+  justify-content: center;
+  margin-top:1rem;
+  margin-bottom:8rem;
+}
 
+.entry button {
+  width: 200px;
+  aspect-ratio: 1/1;
+}
 
+.entry button img {
+  place-self: center;
+}
 
-
+.entry h3 {
+  text-align: center;
+  color:var(--typo-darkgray);
+}
+.manage {
+  text-align: center;
+}
+.manage h3 {
+  display: inline;
+  color:var(--typo-darkgray);
+  border: 1px solid var(--typo-gray);
+  padding:1rem 2rem ;
+  margin: 7rem;
+}
 
 
 
