@@ -3,6 +3,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-family: signika;
 
   /*
   color-scheme: light dark;
@@ -33,24 +34,38 @@
   --back-black2: #222222;
 }
 
+body {
+  font-size: 1.6rem;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+
 .header h1 {
   color:var(--typo-white);
   padding-left: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.1;
+  letter-spacing: -0.5%;
 }
+
 .color-system {
-  border: 10px solid var(--primary-red);
+  border: 15px solid var(--primary-red);
   padding: 3rem;
   gap: 2rem;
 }
 .color-system h2 {
   color: var(--typo-white);
   margin: 2rem 0;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: -1%;
 }
 
-
-/*-- PRİMARY --*/
+ /*-- PRİMARY --*/
 
 .primary {
   display: flex;
@@ -67,6 +82,9 @@
 .rect p {
   color:var(--typo-white);
   padding-left: 2rem ;
+  font-size: 1rem;
+  line-height: auto;
+  letter-spacing: 0%;
 
 }
 
@@ -86,8 +104,29 @@
 p {
   padding: 0.5rem;
   display: inline;
-  font-weight: bold;
+  font-size: 1rem;
+  line-height: auto;
+  letter-spacing: 0%;
 }
+
+/*-- buton --*/
+
+
+.primary-button {
+  font-size: 1.2rem;
+  line-height: auto;
+  letter-spacing: 0.1%;
+}
+
+.seconder-button {
+  font-size: 1rem;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+
+
+
+
 
 
 
