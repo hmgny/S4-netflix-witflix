@@ -200,9 +200,43 @@ button:hover {
   padding:1rem 2rem ;
   margin: 7rem;
 }
+.cards {
+  display: flex;
+  gap:2rem;
+  justify-content: center;
 
+}
+.card {
+  width:40rem ;
+  aspect-ratio: 16/9;
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.card > div {
+  display: flex;
+  justify-content: space-between;
+}
+.card img {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
 
+.card img:first-child {
+  padding:0.7rem
+}
+
+span {
+  background-color: red;
+  color: white;
+  align-self: center;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  
+}
 
 
 
