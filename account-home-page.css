@@ -1,0 +1,164 @@
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: signika;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /*-- COLOR EKLE --*/
+
+  --primary-black: black;
+  --primary-red: #E50914;
+
+  --typo-white: #FFFFFF;
+  --typo-gray: #8C8C8C;
+  --typo-darkgray: #757575; 
+  --typo-lightgray: #999999;
+
+  --accent-blue: #0071EB;
+  --accent-orange: #FFA00A;
+  --accent-green: #5FA53F;
+
+  --back-black0: #000000;
+  --back-black2: #222222;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.header-sol {
+  display: flex;
+  gap: 4rem;
+}
+
+.header-sag {
+  display:flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: var(--typo-white);
+  padding:0 1rem
+}
+
+.hero {
+  padding:5rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hero p {
+  color:var(--typo-white);
+  margin: 2rem 0;
+  max-width: 500px;
+}
+
+button {
+  gap: 3rem;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-color: var(--primary-red);
+  color:var(--typo-white)
+}
+
+.primary-button {
+  width: 119px;
+  background-color: var(--typo-white);
+  
+}
+
+.seconder-button {
+  background-color: var(--typo-darkgray);
+  color:var(--typo-white);
+  width: 161px;
+
+}
+
+.movies-span {
+display: flex;
+padding-top: 1rem;
+background-color:var(--back-black0)
+}
+
+
+.cards {
+  display: flex;
+  gap:1rem;
+  justify-content: center;
+  padding-bottom: 2rem;
+  overflow-x: scroll;
+  
+}
+.card {
+  min-width:20rem ;
+  aspect-ratio: 16/9;
+  background-color:var(--back-black2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.card > div {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.card img {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card img:first-child {
+  padding:0.7rem
+}
+.card span {
+  background-color: red;
+  color: white;
+  align-self: center;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.satir {
+  padding: 15rem;
+  font-size:20px;
+  color:var(--typo-gray);
+  display:flex;
+  justify-content: space-around;
+}
+.sutun {
+  display: flex;
+  flex-direction: column;
+}
+
+.servis {
+  border: 1px solid var(--typo-gray);
+  padding:1rem
+}
+
+.movies-span {
+  color:var(--typo-white);
+  font-size: 2rem;
+  padding: 1rem 0;
+}
