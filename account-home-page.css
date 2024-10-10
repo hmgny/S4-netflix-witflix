@@ -94,9 +94,9 @@ button:hover {
 }
 
 .movies-span {
-display: flex;
-padding-top: 1rem;
-background-color:var(--back-black0)
+  display: flex;
+  padding-top: 1rem;
+  background-color:var(--back-black0)
 }
 
 
@@ -106,26 +106,24 @@ background-color:var(--back-black0)
   justify-content: center;
   padding-bottom: 2rem;
   overflow-x: scroll;
-  
 }
+
 .card {
-  min-width:20rem ;
+  min-width:25rem ;
   aspect-ratio: 16/9;
   background-color:var(--back-black2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .card > div {
   display: flex;
   justify-content: space-between;
-  
-  
 }
+
 .card img {
-  width: 10%;
+  width: 2.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -133,6 +131,7 @@ background-color:var(--back-black0)
 .card img:first-child {
   padding:0.7rem
 }
+
 .card span {
   background-color: red;
   color: white;
@@ -140,20 +139,61 @@ background-color:var(--back-black0)
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
 }
+
+.dik-card span {
+  background-color: red;
+  color: white;
+  align-self: center;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.dik-cards {
+  display: flex;
+  gap:10rem;
+}
+
+.dik-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 12rem;
+  aspect-ratio: 3/4.5;
+  background-color:var(--back-black2);
+}
+
+.dik-card > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dik-card img:first-child {
+  padding:0.7rem;
+  width:2.5rem;
+}
+
+.social {
+  padding-top: 18rem;
+  padding-bottom: 2rem;
+  padding-left: 23rem ;
+  font-size: 20px;
+  display: flex;
+}
+
 .satir {
-  padding: 15rem;
+  padding: 0 15rem;
   font-size:20px;
-  color:var(--typo-gray);
+  color:var(--typo-darkgray);
   display:flex;
   justify-content: space-around;
 }
+
 .sutun {
   display: flex;
   flex-direction: column;
 }
 
 .servis {
-  border: 1px solid var(--typo-gray);
+  border: 1px solid var(--typo-darkgray);
   padding:1rem
 }
 
